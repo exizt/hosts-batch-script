@@ -3,7 +3,7 @@ MODE CON COLS=40 LINES=11
 COLOR 3F
 
 ECHO ======================================
-ECHO Windows Local 환경의 Hosts 파일 수정
+ECHO Local을 가리키는 도메인 추가 (개발자용)
 ECHO Author : e2xist
 ECHO ======================================
 
@@ -11,6 +11,7 @@ SET FILE=%SystemRoot%\System32\drivers\etc\hosts
 REM ====================================
 REM 여기에 호출할 때마다 hosts 에 값을 추가합니다.
 REM ====================================
+ECHO. >> %FILE%
 CALL :SETHOST workspace.local
 CALL :SETHOST mediaserver.local
 CALL :SETHOST myhome.local
