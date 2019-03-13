@@ -4,7 +4,7 @@ COLOR 3F
 
 ECHO ======================================
 ECHO Local을 가리키는 도메인 추가 (개발자용)
-ECHO Author : e2xist
+ECHO Author : e2xist (e2xist.tistory.com)
 ECHO ======================================
 
 SET FILE=%SystemRoot%\System32\drivers\etc\hosts
